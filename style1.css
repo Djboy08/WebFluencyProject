@@ -29,6 +29,8 @@
     background-color: rgba(214, 18, 28, 0.712);
     color: white;
   }
+  
+  
 
   .card {
     background-color: white;
@@ -100,6 +102,13 @@
   
   #NotAPhaseMom {
     background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(102, 102, 102));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 10px;
+  }
+  
+  #French {
+    background: -webkit-linear-gradient(rgb(0, 140, 255), rgb(9, 46, 128));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-right: 10px;
