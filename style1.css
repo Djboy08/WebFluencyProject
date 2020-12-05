@@ -84,6 +84,13 @@
     padding-right: 10px;
   }
 
+  #TheFrenchFry {
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 10px;
+  }
+
   #TheQuantumRipper {
     background: -webkit-linear-gradient(rgb(0, 140, 255), rgb(9, 46, 128));
     -webkit-background-clip: text;
