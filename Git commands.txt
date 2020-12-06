@@ -1,5 +1,0 @@
-git add .
-git commit -m "I shat the bed"
-git push
-
-Open with: Live Server
