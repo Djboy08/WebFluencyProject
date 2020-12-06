@@ -1,4 +1,7 @@
 /* Add a black background color to the top navigation */
+body {
+    margin-bottom: 100px;
+}
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -44,6 +47,7 @@
   .Details {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: relative;
     display: inline-block;
     width: 81.32%;
     padding: 10px;
@@ -106,6 +110,7 @@
     background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(0, 0, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-right: 15px;
   }
 
   #TheQuantumRipper {
@@ -157,6 +162,27 @@
     padding-right: 10px;
   }
 
+  #Dragon {
+    background: -webkit-linear-gradient(rgb(0, 255, 0), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 10px;
+  }
+
+  #TV {
+    background: -webkit-linear-gradient(rgb(139,69,19), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 10px;
+  }
+
+  #Crack {
+    background: -webkit-linear-gradient(rgb(215, 255, 254), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 10px;
+  }
+
   .cardtitle:hover {
       color: rgb(255, 104, 104);
   }
@@ -168,4 +194,22 @@
   .container {
     padding: 2px 16px;
     text-align: center;
+  }
+
+  .WorkPCs {
+      padding-top: 30px;
+  }
+
+
+  footer {
+      background-color: rgb(58, 58, 58);
+      display: block;
+      box-sizing: border-box;
+      border-radius: 3px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
   }
