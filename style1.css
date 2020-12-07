@@ -183,6 +183,34 @@ body {
     padding-right: 10px;
   }
 
+  #MAC{
+    background: -webkit-linear-gradient(rgba(233, 160, 255, 0.514), rgb(116, 116, 116));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 10px;
+  }
+
+  #Dell {
+    background: -webkit-linear-gradient(rgb(108, 108, 108), rgb(182, 181, 181));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 10px;
+  }
+
+  #Dell2 {
+    background: -webkit-linear-gradient(rgb(215, 255, 254), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 10px;
+  }
+
+  #Rasp {
+    background: -webkit-linear-gradient(rgb(132, 1, 255), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 10px;
+  }
+
   .cardtitle:hover {
       color: rgb(255, 104, 104);
   }
